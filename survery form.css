@@ -1,0 +1,76 @@
+* {
+    padding:0;
+    margin:0;
+    font-size:100%;
+  }
+  
+  body{
+      background-color: #3e4444;
+      font-family: 'Aclonica';
+      text-align: center;
+  }
+  
+  #title h1 {
+      color: #c1946a;
+      font-size: 35px;
+  }
+  
+  #title p {
+      color: #c1946a;
+      font-size: 25px;
+      padding: 0.5rem 0 1rem 0;
+  }
+  
+  
+  #content {
+      background-color: #82b74b;
+      margin: auto;
+      width: 70%;
+      border: 1px solid #c1946a;
+      padding: 2rem;
+  }
+  
+  #description {
+     color: #3e4444;
+     font-size: 20px;
+     padding: 1rem;
+  }
+  
+  form {
+    padding: 1rem;
+    margin: 2rem;
+  }
+  
+  lable {
+    padding: 1rem;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  input[type=text] {
+    padding: 0.5rem;
+    width: 100%;
+    background-color: #c1946a;
+  }
+  
+  input[type=number] {
+    padding: 0.5rem;
+    width: 100%;
+    background-color: #c1946a;
+  }
+  
+  textarea {
+    padding: 1rem;
+    width: 100%;
+    background-color: #c1946a;
+    
+  }
+  
+  .pagefooter {
+      padding: 2rem;
+      font-size: 14px;
+  }
+  
+  
+  

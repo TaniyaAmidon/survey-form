@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="survery form.css">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  </head>
+  
+  <body>
+    <header id="title">
+      <h1>Survery Form<h1>
+        <p>Ice Cream shop</p>
+    </header>
+    
+    <main id="content">
+      <section id="description">
+        <p>Let us know how we can improve!</p>
+      </section>
+      
+      <form id="survey-form">
+        <lable for="name-lable">Name:</lable>
+          <input type="text" id="name-lable" required name="name" placeholder="Enter your name">
+          
+        <lable for="email-lable">Email:</lable>
+        <input type="text" id="email-lable" required name="name" placeholder="Enter your Email">
+        
+        <lable for="age">Age:</lable>
+        <input type="number" id="number-lable" required name="age" placeholder="Age">
+     
+          <lable for="skills" id="skills">How is our customer service?</lable>
+          <select>
+            <option value="Option">Select an option</option>
+            <option value="Poor">Poor</option>
+            <option value="Good">Good</option>
+            <option value="Very Good">Very Good</option>
+          </select>
+       
+          <lable for="frequency" id="frequency">How often do you eat ice cream?</lable>
+           <input id="daily" type="radio" name="Frequency"> 
+           <lable for="daily">Daily</lable> 
+           <input id="weekly" type="radio" name="Frequency">
+           <lable for="weekly">Weekly</lable>
+           <input id="monthly" type="radio" name="Frequency">
+           <lable for="monthly">Monthly</lable>
+ 
+        <lable for="flavours" id="flavours">Which flavours should we introduce?</lable>
+          <lable for="flavours"class="flavours"> 
+            <input type="checkbox" name="choc-mint" value="flavours">Choc-mint</lable>
+          <lable for="flavours"class="flavours"> 
+          <input type="checkbox" name="key-lime" value="flavours">Key-lime</lable>
+          <lable for="flavours"class="flavours"> 
+          <input type="checkbox" name="matcha" value="flavours">Matcha</lable>
+          <lable for="flavours"class="flavours"> 
+          <input type="checkbox" name="taro" value="flavours">Taro</lable>
+        
+      </form>
+      
+      <form id="text-area">
+        <lable for="comment">Any comments:</lable>
+        <textarea rows"6" cols="60" name="comment" required>
+        </textarea>      
+        <input type="submit">    
+      </form>
+      
+    </main>
+        
+    <footer class="pagefooter">
+      <p>Copyright: Taniya Amidon </p>
+        </footer>
+  </body>
+</html>
